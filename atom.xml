@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-11-29T14:13:30.159Z</updated>
+    <updated>2021-11-29T15:11:29.541Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
@@ -11,27 +11,33 @@
     <icon>https://alalalex-m.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Angelo&apos;s Blog</rights>
     <entry>
-        <title type="html"><![CDATA[# iOS/m1(pro/max) Mac]]></title>
+        <title type="html"><![CDATA[iOS/m1(pro/max) Mac]]></title>
         <id>https://alalalex-m.github.io/post/quantumult x/</id>
         <link href="https://alalalex-m.github.io/post/quantumult x/">
         </link>
         <updated>2021-11-29T13:34:41.000Z</updated>
-        <summary type="html"><![CDATA[<h2 id="工具">工具：</h2>
-<ol>
-<li><s>Quantumult X</s></li>
-<li>Surge</li>
-<li>Clash</li>
-</ol>
-]]></summary>
         <content type="html"><![CDATA[<h2 id="工具">工具：</h2>
 <ol>
-<li><s>Quantumult X</s></li>
-<li>Surge</li>
-<li>Clash</li>
+<li><a href="...">Quantumult X</a>（美区购买$7.99，不建议买捆绑包)</li>
+<li><s>Surge</s>（美区内购，太贵了没必要，钱多自便）</li>
+<li><s>Shadowrocket</s> （美区购买$2.99，个人不是很喜欢）</li>
+<li><a href="...">Clash</a>（免费，不是很好用）</li>
 </ol>
-<!-- more -->
-<p>##前期准备：<br>
-首先，你需要一个</p>
+<hr>
+<h2 id="前期准备">前期准备：</h2>
+<p>首先，你需要一个非国区的apple ID。可以去：<a href="...">如何注册美区AppleID</a> 查看注册方法。文章以美区为例。</p>
+<p>（可以选择，但没必要）下载一个名为“VPN-Super Unlimited Proxy&quot;的VPN软件，临时使用。<br>
+<img src="https://alalalex-m.github.io//post-images/1638196432349.png" alt="它长这样！别下载错了！" loading="lazy"></p>
+<p>BTW，你需要明白，免费的VPN，基本都不好用。如果想要畅快地翻墙，就去买节点（真的不贵，实在嫌贵可以和朋友拼一下么）。这里不给大家推荐机场了，网上有很多，可以自己寻找。<br>
+这边提供给大家一个免费节点网站：https://github.com/freefq/free，以及<a href="https://raw.fastgit.org/freefq/free/master/v2">订阅链接</a></p>
+<hr>
+<h2 id="开始整活">开始整活</h2>
+<h3 id="quantumult-x真的很值得">Quantumult X（真的很值得）</h3>
+<p>这里用我自己使用的Quantumult X示范。</p>
+<p>Quantumult X 这类app有设备限制，共享账号的基本都用不了。因此以下基于正版（自己购买）的QX讲解。<br>
+打开之后，你会发现空空荡荡的一片，什么都没有。不要慌，点击右下角<img src="https://alalalex-m.github.io//post-images/1638197709527.png" alt="小风车图标" loading="lazy"><br>
+接下来点击：<br>
+节点&gt;引用（订阅）<img src="https://alalalex-m.github.io//post-images/1638198676565.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
@@ -44,38 +50,6 @@
 bluh<br>
 bluh<br>
 bluh</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://alalalex-m.github.io/post/hello-gridea/</id>
-        <link href="https://alalalex-m.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
