@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-11-29T15:17:23.260Z</updated>
+    <updated>2021-11-29T15:53:16.113Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
@@ -34,10 +34,117 @@
 <h2 id="开始整活">开始整活</h2>
 <h3 id="quantumult-x真的很值得">Quantumult X（真的很值得）</h3>
 <p>这里用我自己使用的Quantumult X示范。</p>
-<p>Quantumult X 这类app有设备限制，共享账号的基本都用不了。因此以下基于正版（自己购买）的QX讲解。<br>
-打开之后，你会发现空空荡荡的一片，什么都没有。不要慌，点击右下角<img src="https://alalalex-m.github.io//post-images/1638197709527.png" alt="小风车图标" loading="lazy"><br>
-接下来点击：<br>
-节点&gt;引用（订阅）<img src="https://alalalex-m.github.io//post-images/1638198676565.png" alt="" loading="lazy"></p>
+<p>Quantumult X 这类app有设备限制，共享账号的基本都用不了。因此以下基于正版（自己购买）的QX讲解。</p>
+<p>打开之后，你会发现空空荡荡的一片，什么都没有。不要慌，点击右下角<img src="https://alalalex-m.github.io//post-images/1638197709527.png" alt="小风车图标" loading="lazy"><br>
+接下来点击：</p>
+<h4 id="节点引用订阅">节点&gt;引用（订阅）<img src="https://alalalex-m.github.io//post-images/1638198676565.png" alt="" loading="lazy"></h4>
+<p>（告诉我你买了自己的节点！用的舒不舒适就看你愿不愿意放弃网易云订阅，买个节点了。）</p>
+<p>接下来依次打开：</p>
+<h4 id="重写">重写<img src="https://alalalex-m.github.io//post-images/1638199463498.png" alt="" loading="lazy"></h4>
+<h4 id="mitm">MitM<img src="https://alalalex-m.github.io//post-images/1638199484211.png" alt="" loading="lazy"></h4>
+<p>❗️❗️❗️接下来这一步，极其重要❗️❗️❗</p>
+<p>（偷个懒，借用百度的一组图片）<br>
+<img src="https://alalalex-m.github.io//post-images/1638199818937.png" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638199826499.png" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638199834817.png" alt="" loading="lazy"></p>
+<p>❗️❗️❗️每一步务必落实到位❗️❗️❗️</p>
+<h4 id="接下来就是配置部分">接下来就是配置部分：</h4>
+<p>我个人在用的是<a href="https://github.com/limbopro">毒奶博主</a>的<a href="https://github.com/limbopro/Profiles4limbo">配置</a>，去广告分流什么的都很全。</p>
+<p>不想研究的话，直接倒入配置就好了。<br>
+复制链接：https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf/<br>
+点击：导入<br>
+<img src="https://alalalex-m.github.io//post-images/1638200701578.png" alt="" loading="lazy"><br>
+粘贴链接，导入即可。（先打开全局代理，用刚才导入的节点。）</p>
+<p>实在不行，我这里已经给你复制好了，复制下方全部代码，点击编辑，粘贴进去即可。</p>
+<pre><code>
+;预配置作者
+;毒奶博主
+;limbopro.com
+;08.28.2021 更新   
+;https://t.me/limboprossr 关注更新
+;https://t.me/Adblock4limbo 群组反馈与讨论交流
+
+[general]
+
+#解析器作者 @XIAO_KOP 
+resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+
+#IP_API 改自 @XIAO_KOP
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/limbopro/QuantumultX/master/Scripts/IP_API.js
+
+
+[dns]
+server=223.5.5.5
+server=114.114.114.114
+server=119.29.29.29
+server=8.8.8.8
+address=/raw.githubusercontent.com/185.199.110.133
+
+
+[policy]
+available=♻️ 故障切换, 无用节点1, 无用节点2, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Available.png
+static=✈️ 机场专线, 🎥 其他国外流媒体, ♻️ 故障切换, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/rocket.png
+static=📲 社交媒体, 🎥 其他国外流媒体,  ♻️ 故障切换, PROXY, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🍎 苹果服务, DIRECT, 🎥 其他国外流媒体, ♻️ 故障切换, PROXY, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=🎥 Netflix, 🎥 其他国外流媒体, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Netflix_Letter.png
+static=🎥 其他国外流媒体, ♻️ 故障切换, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Qure/master/IconSet/GlobalMedia.png
+static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Qure/master/IconSet/Advertising.png
+static=🐟 Final, 🎥 其他国外流媒体, ♻️ 故障切换, PROXY, DIRECT, 🛑 广告拦截, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Final.png
+
+
+[server_remote]
+# https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/unlesssub.txt, tag=无用节点（❌请不要动它）, enabled=false
+# 无用订阅（请勿删除）
+
+[filter_remote]
+https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/airports.list, tag=机场专线, force-policy=✈️ 机场专线, enabled=true
+https://limbopro.com/Adblock4limbo.list, tag=毒奶特供, force-policy=🛑 广告拦截, enabled=true
+https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt, tag=野比(4W+), force-policy=🛑 广告拦截, enabled=true
+https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt, tag=野比(6W+), force-policy=🛑 广告拦截, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/BlockiOSUpdate.list, tag=禁止🚫🍎更新, force-policy=🛑 广告拦截, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix, force-policy=🎥 Netflix, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=其他国外流媒体, force-policy=🎥 其他国外流媒体, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=社交媒体, force-policy=📲 社交媒体, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/Apple.list, tag=苹果服务, force-policy=🍎 苹果服务, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list, tag=大陆媒体, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=GEOIP(CN), enabled=true
+
+[rewrite_remote]
+https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=DivineEngine (Youtube AdsBlock), enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=DivineEngine (Advertising), enabled=true
+#https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag=ConnersHua （DivineEngine Rewrite）, enabled=true
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=NoByDa（lhie1 Rewrite）, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag=NoByDa（NoByDa Rewrite）, enabled=true
+https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/tiktok.conf, tag=TikTok ublock, enabled=true
+
+[server_local]
+shadowsocks=example.com:80, method=aes-128-gcm, password=pwd, obfs=ws, fast-open=false, tag=无用节点1
+shadowsocks=example.com:80, method=aes-128-gcm, password=pwd, obfs=ws, fast-open=false, tag=无用节点2
+
+[filter_local]
+geoip, cn, direct
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+final, 🐟 Final
+
+
+[rewrite_local]
+
+
+[mitm]
+
+
+</code></pre>
+<h4 id="完成后滑动到最下方点击其他设置">完成后，滑动到最下方，点击：其他设置&gt;</h4>
+<p>建议开启iCloud，并按照下图，有选择的打开开关。<br>
+<img src="https://alalalex-m.github.io//post-images/1638200026890.png" alt="" loading="lazy"><br>
+建议打开：排除路由（去除通知栏烦人的VPN图标，也可以排除一部分vpn检测），始终开启（保持vpn开启，不用太担心耗电）</p>
+<p>至此，就基本结束了。平时大家用彩色小风车（规则代理）就好。</p>
+<h3 id="clash">clash</h3>
 ]]></content>
     </entry>
     <entry>
