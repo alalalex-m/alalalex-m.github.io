@@ -2142,15 +2142,6 @@ body {
     .nav-item:hover {
       background: background-color: #e5a230; background-image: linear-gradient(90deg, #e5a230 0%, #db6b33 100%);;
       color: rgba(0, 0, 0, 0.98);
-    }.site-author-image {
-      border-radius: 50%;
-    }
-    .site-author-image:hover {
-      transform: rotate(666turn);
-      transition-delay: 1s;
-      transition-property: all;
-      transition-duration: 59s;
-      transition-timing-function: cubic-bezier(.34,0,.84,1);
     }.markdownIt-TOC a {
       color: #050707;
       border-bottom-color: #050707;
