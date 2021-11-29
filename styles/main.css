@@ -2082,13 +2082,7 @@ body {
         width: 960px;
         margin: 0 auto;
       }
-    @font-face {
-      font-family: 'PingFang.tcc';
-      src: url('/media/fonts/PingFang.tcc.ttf');
-    }
-    * {
-        font-family: 'PingFang.tcc';
-    }body {
+    body {
       color: #555;
     }
     .next-md-body {
@@ -2098,21 +2092,21 @@ body {
       border-bottom-color: #555;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #CC9966fe;
+      background: #eeeeeefe;
     }h1, h2, h3, h4, h5, h6 {
-      color: #bac8ff;
+      color: #555;
     }
     
     .archive-timeline-title::before {
-      background-color: #bac8ff;
+      background-color: #555;
     }
     
     .post-title-link::before {
-      background-color: #bac8ff;
+      background-color: #555;
     }
     
     .node-title::before {
-      background-color: #bac8ff;
+      background-color: #555;
     }a {
       color: #555;
     }
@@ -2182,7 +2176,7 @@ body {
       color: #fc6423;
       border-bottom-color: #fc6423;
     }.bg-color {
-      background-color: #666666fe;
+      background-color: #fffffffe;
     }
       .site-meta {
         background: #000 !important;
@@ -2191,7 +2185,7 @@ body {
         background: #000 !important;
       }
     .brand {
-      background: #FFFF66fe;
+      background: #000000fe;
     }
     .main-title, .brand {
       color: #FFF !important;
