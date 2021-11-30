@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-11-29T15:56:33.574Z</updated>
+    <updated>2021-11-30T03:14:59.212Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
@@ -18,10 +18,10 @@
         <updated>2021-11-29T13:34:41.000Z</updated>
         <content type="html"><![CDATA[<h2 id="工具">工具：</h2>
 <ol>
-<li><a href="...">Quantumult X</a>（美区购买$7.99，不建议买捆绑包)</li>
+<li><a href="https://alalalex-m.github.io/post/quantumult%20x/#quantumult-x%E7%9C%9F%E7%9A%84%E5%BE%88%E5%80%BC%E5%BE%97">Quantumult X</a>（美区购买$7.99，不建议买捆绑包)</li>
 <li><s>Surge</s>（美区内购，太贵了没必要，钱多自便）</li>
 <li><s>Shadowrocket</s> （美区购买$2.99，个人不是很喜欢）</li>
-<li><a href="...">Clash</a>（免费，不是很好用）</li>
+<li><a href="https://alalalex-m.github.io/post/quantumult%20x/#clash">Clash</a>（免费，不是很好用）</li>
 </ol>
 <hr>
 <h2 id="前期准备">前期准备：</h2>
@@ -144,7 +144,7 @@ final, 🐟 Final
 <img src="https://alalalex-m.github.io//post-images/1638200026890.png" alt="" loading="lazy"><br>
 建议打开：排除路由（去除通知栏烦人的VPN图标，也可以排除一部分vpn检测），始终开启（保持vpn开启，不用太担心耗电）</p>
 <p>至此，就基本结束了。平时大家用彩色小风车（规则代理）就好。</p>
-<h3 id="clash">clash</h3>
+<h3 id="clash">Clash</h3>
 ]]></content>
     </entry>
     <entry>
