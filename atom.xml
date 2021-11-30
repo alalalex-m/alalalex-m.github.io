@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-11-30T03:31:14.290Z</updated>
+    <updated>2021-11-30T03:58:21.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://alalalex-m.github.io/images/avatar.png</logo>
     <icon>https://alalalex-m.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Angelo&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Win/Android]]></title>
+        <id>https://alalalex-m.github.io/post/winandroid/</id>
+        <link href="https://alalalex-m.github.io/post/winandroid/">
+        </link>
+        <updated>2021-11-30T03:35:32.000Z</updated>
+        <content type="html"><![CDATA[<p>##工具：</p>
+<ol>
+<li>Clash</li>
+<li>...</li>
+</ol>
+<p>##前期准备：</p>
+<p>###去github下载Clash客户端</p>
+<p>Android：<a href="https://github.com/Kr328/ClashForAndroid/releases/tag/v2.4.14">clash for android</a></p>
+<p>Win：<a href="https://github.com/Dreamacro/clash/releases/download/v1.8.0/clash-windows-amd64-v1.8.0.zip">clash for win</a></p>
+<p>Mac：<a href="https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public">clashX pro</a></p>
+<p>###节点！！！</p>
+<p>你需要明白，免费的VPN，基本都不好用。如果想要畅快地翻墙，就去买节点（真的不贵，实在嫌贵可以和朋友拼一下么）。这里不给大家推荐机场了，网上有很多，可以自己寻找。</p>
+<p>这边提供给大家一个免费节点网站：https://github.com/freefq/free，以及<a href="https://raw.fastgit.org/freefq/free/master/v2">订阅链接</a>。</p>
+<p>##开始整活</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[iOS/m1(pro/max) Mac]]></title>
         <id>https://alalalex-m.github.io/post/quantumult x/</id>
@@ -145,6 +167,9 @@ final, 🐟 Final
 建议打开：排除路由（去除通知栏烦人的VPN图标，也可以排除一部分vpn检测），始终开启（保持vpn开启，不用太担心耗电）</p>
 <p>至此，就基本结束了。平时大家用彩色小风车（规则代理）就好。</p>
 <h3 id="clash">Clash</h3>
+<p>如果不想花钱买软件的话，clash当作代理+去广告也是可以的。</p>
+<p>当然运行脚本的话可能就不行了。</p>
+<p>具体的教程可以去<a href="...">Win/Android</a>这一篇看，使用方法大体一致，这边就不再赘述了。</p>
 ]]></content>
     </entry>
     <entry>
