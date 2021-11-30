@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-11-30T09:53:27.785Z</updated>
+    <updated>2021-11-30T14:01:36.374Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
@@ -24,12 +24,23 @@
 <p>##前期准备：</p>
 <p>###去github下载Clash客户端</p>
 <p>Android：<a href="https://github.com/Kr328/ClashForAndroid/releases/tag/v2.4.14">clash for android</a></p>
-<p>Win：<a href="https://github.com/Dreamacro/clash/releases/download/v1.8.0/clash-windows-amd64-v1.8.0.zip">clash for win</a></p>
+<p>Win：<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases/tag/0.18.10/">clash for win</a></p>
 <p>Mac：<a href="https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public">clashX pro</a></p>
 <p>###节点！！！</p>
 <p>你需要明白，免费的VPN，基本都不好用。如果想要畅快地翻墙，就去买节点（真的不贵，实在嫌贵可以和朋友拼一下么）。这里不给大家推荐机场了，网上有很多，可以自己寻找。</p>
 <p>这边提供给大家一个免费节点网站：https://github.com/freefq/free，以及<a href="https://raw.fastgit.org/freefq/free/master/v2">订阅链接</a>。</p>
 <p>##开始整活</p>
+<p>###安卓<br>
+<img src="https://alalalex-m.github.io//post-images/1638279134370.JPG" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638279140331.JPG" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638279158960.JPG" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638279166221.JPG" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638279170035.JPG" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638279173373.JPG" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638279176944.JPG" alt="" loading="lazy"><br>
+<img src="https://alalalex-m.github.io//post-images/1638279181343.JPG" alt="" loading="lazy"></p>
+<p>按照图上的方法做就没问题啦</p>
+<p>###Win（mac类似）</p>
 ]]></content>
     </entry>
     <entry>
