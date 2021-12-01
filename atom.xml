@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-12-01T03:14:07.405Z</updated>
+    <updated>2021-12-01T03:44:38.123Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://alalalex-m.github.io/images/avatar.png</logo>
     <icon>https://alalalex-m.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Angelo&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[翻墙]]></title>
+        <id>https://alalalex-m.github.io/post/fan-qiang/</id>
+        <link href="https://alalalex-m.github.io/post/fan-qiang/">
+        </link>
+        <updated>2021-12-01T03:14:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>❗️需一定英语能力</p>
+<p>##自用 ios+macos</p>
+<p>##已实现</p>
+<p>###全局去广告<br>
+###手动屏蔽漏掉的广告<br>
+###基本畅通无阻的全球网络。<br>
+###AppleMusic 想听的都有；新歌不必多次充值；无损（非网易云等自欺欺人无损）<br>
+###浏览器跳过看视频广告/会员<br>
+###...</p>
+<p>##第一步--翻墙<br>
+❗️❗️❗️只有出去了，才知道国内各大平台有多么不要脸。<br>
+###<a href="https://alalalex-m.github.io/post/win-android/">Windows/Android</a><br>
+###<a href="https://alalalex-m.github.io/post/quantumult%20x/">iOS/macOS</a></p>
+<p>##第二步--抛弃360，网易云...<br>
+<s>待更新</s></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>❗️需一定英语能力</p>
+<p>##自用 ios+macos</p>
+<p>##已实现</p>
+<p>###全局去广告<br>
+###手动屏蔽漏掉的广告<br>
+###基本畅通无阻的全球网络。<br>
+###AppleMusic 想听的都有；新歌不必多次充值；无损（非网易云等自欺欺人无损）<br>
+###浏览器跳过看视频广告/会员<br>
+###...</p>
+<p>##第一步--翻墙<br>
+❗️❗️❗️只有出去了，才知道国内各大平台有多么不要脸。<br>
+###<a href="https://alalalex-m.github.io/post/win-android/">Windows/Android</a><br>
+###<a href="https://alalalex-m.github.io/post/quantumult%20x/">iOS/macOS</a></p>
+<p>##第二步--抛弃360，网易云...<br>
+<s>待更新</s></p>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Win/Android]]></title>
         <id>https://alalalex-m.github.io/post/win-android/</id>
