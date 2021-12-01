@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-11-30T14:01:36.374Z</updated>
+    <updated>2021-12-01T02:41:39.398Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
@@ -24,7 +24,8 @@
 <p>##前期准备：</p>
 <p>###去github下载Clash客户端</p>
 <p>Android：<a href="https://github.com/Kr328/ClashForAndroid/releases/tag/v2.4.14">clash for android</a></p>
-<p>Win：<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases/tag/0.18.10/">clash for win</a></p>
+<p>Win：<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases/tag/0.18.10/">clash for win</a> 下载.exe文件<br>
+<a href="https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/tag/Clash-V0.18.10_CN">汉化版</a>下载.exe文件</p>
 <p>Mac：<a href="https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public">clashX pro</a></p>
 <p>###节点！！！</p>
 <p>你需要明白，免费的VPN，基本都不好用。如果想要畅快地翻墙，就去买节点（真的不贵，实在嫌贵可以和朋友拼一下么）。这里不给大家推荐机场了，网上有很多，可以自己寻找。</p>
@@ -41,6 +42,13 @@
 <img src="https://alalalex-m.github.io//post-images/1638279181343.JPG" alt="" loading="lazy"></p>
 <p>按照图上的方法做就没问题啦</p>
 <p>###Win（mac类似）</p>
+<p>打开下载安装好的clash，打开<a href="https://acl4ssr-sub.github.io">网址</a>.<br>
+<img src="https://alalalex-m.github.io//post-images/1638326313658.jpg" alt="" loading="lazy"></p>
+<p>输入自己节点的订阅链接，并按照上图选择。</p>
+<p>点击生成链接，再点击一键导入clash<br>
+<img src="https://alalalex-m.github.io//post-images/1638326431569.jpg" alt="" loading="lazy"></p>
+<p>配置栏出现新的配置文件，就代表配置成功啦！<br>
+连接即可。</p>
 ]]></content>
     </entry>
     <entry>
