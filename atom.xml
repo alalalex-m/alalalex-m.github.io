@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-12-01T02:41:39.398Z</updated>
+    <updated>2021-12-01T03:14:07.405Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2021, Angelo&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[Win/Android]]></title>
-        <id>https://alalalex-m.github.io/post/winandroid/</id>
-        <link href="https://alalalex-m.github.io/post/winandroid/">
+        <id>https://alalalex-m.github.io/post/win-android/</id>
+        <link href="https://alalalex-m.github.io/post/win-android/">
         </link>
         <updated>2021-11-30T03:35:32.000Z</updated>
         <content type="html"><![CDATA[<p>##工具：</p>
@@ -49,6 +49,7 @@
 <img src="https://alalalex-m.github.io//post-images/1638326431569.jpg" alt="" loading="lazy"></p>
 <p>配置栏出现新的配置文件，就代表配置成功啦！<br>
 连接即可。</p>
+<p>有不懂得可以去微信公众号留言，会尽力为大家解答！</p>
 ]]></content>
     </entry>
     <entry>
@@ -189,18 +190,7 @@ final, 🐟 Final
 <p>如果不想花钱买软件的话，clash当作代理+去广告也是可以的。</p>
 <p>当然运行脚本的话可能就不行了。</p>
 <p>具体的教程可以去<a href="...">Win/Android</a>这一篇看，使用方法大体一致，这边就不再赘述了。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://alalalex-m.github.io/post/test/</id>
-        <link href="https://alalalex-m.github.io/post/test/">
-        </link>
-        <updated>2021-11-29T07:55:07.000Z</updated>
-        <content type="html"><![CDATA[<p>Just a simple test article<br>
-bluh<br>
-bluh<br>
-bluh</p>
+<p>有不懂得可以去微信公众号留言，会尽力为大家解答！</p>
 ]]></content>
     </entry>
 </feed>
