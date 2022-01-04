@@ -2,14 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alalalex-m.github.io/</id>
     <title>Angelo&apos;s Blog</title>
-    <updated>2021-12-01T07:52:45.183Z</updated>
+    <updated>2022-01-04T14:06:42.938Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alalalex-m.github.io/"/>
     <link rel="self" href="https://alalalex-m.github.io/atom.xml"/>
     <subtitle>You Will Know Who I Am.</subtitle>
     <logo>https://alalalex-m.github.io/images/avatar.png</logo>
     <icon>https://alalalex-m.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Angelo&apos;s Blog</rights>
+    <rights>All rights reserved 2022, Angelo&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[现代复习]]></title>
+        <id>https://alalalex-m.github.io/post/xian-dai-fu-xi/</id>
+        <link href="https://alalalex-m.github.io/post/xian-dai-fu-xi/">
+        </link>
+        <updated>2022-01-04T14:06:14.000Z</updated>
+        <content type="html"><![CDATA[<p>[]<img src="https://alalalex-m.github.io//post-images/1641305195905.JPG" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[翻墙]]></title>
         <id>https://alalalex-m.github.io/post/fan-qiang/</id>
