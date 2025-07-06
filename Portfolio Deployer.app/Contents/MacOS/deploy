@@ -1,22 +1,35 @@
 #!/bin/bash
 
+# 设置错误处理
+set -e
+
 # 获取应用程序包所在目录
-APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+APP_DIR="$(dirname "$(dirname "$SCRIPT_DIR")")"
 PROJECT_DIR="$(dirname "$APP_DIR")"
 
 # 切换到项目目录
 cd "$PROJECT_DIR"
 
+# 记录日志（用于调试）
+LOG_FILE="/tmp/portfolio-deployer.log"
+echo "$(date): Starting deployment from $PROJECT_DIR" > "$LOG_FILE"
+
 # 检查是否在正确的项目目录
 if [ ! -f "package.json" ]; then
+    echo "$(date): Error - package.json not found" >> "$LOG_FILE"
     osascript -e 'display alert "错误" message "请在项目根目录运行此应用程序"'
     exit 1
 fi
 
+echo "$(date): Found package.json, proceeding with deployment" >> "$LOG_FILE"
+
 # 运行快速部署脚本
 if [ -f "quick-deploy.sh" ]; then
-    ./quick-deploy.sh
+    echo "$(date): Running quick-deploy.sh" >> "$LOG_FILE"
+    ./quick-deploy.sh >> "$LOG_FILE" 2>&1
 else
+    echo "$(date): quick-deploy.sh not found, running basic deployment" >> "$LOG_FILE"
     # 如果没有快速部署脚本，执行基本部署
     echo "🚀 开始部署..."
     
@@ -38,8 +51,10 @@ else
     fi
 fi
 
+echo "$(date): Deployment completed" >> "$LOG_FILE"
+
 # 显示完成消息
 osascript -e 'display notification "部署完成！" with title "Portfolio Deployer"'
 
 # 等待几秒后关闭
-sleep 3
+sleep 2

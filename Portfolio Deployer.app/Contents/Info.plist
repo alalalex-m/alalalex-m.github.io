@@ -18,5 +18,9 @@
     <string>10.10</string>
     <key>NSHighResolutionCapable</key>
     <true/>
+    <key>LSBackgroundOnly</key>
+    <false/>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>This app needs to display notifications and alerts.</string>
 </dict>
 </plist>
