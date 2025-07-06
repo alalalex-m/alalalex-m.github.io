@@ -6,13 +6,30 @@
 
 ## 📁 部署工具
 
-### 1. Portfolio Deployer.app (推荐)
+### 1. Deploy.command (推荐 - 最稳定)
+- **位置**: `Deploy.command`
+- **使用方法**: 双击运行
+- **特点**: 
+  - 自动打开终端
+  - 显示详细进度
+  - 自动显示通知
+  - 执行完成后保持窗口打开
+
+### 2. launch-deployer.sh (备用方案)
+- **位置**: `launch-deployer.sh`
+- **使用方法**: 双击运行
+- **特点**: 
+  - 简单的备用方案
+  - 显示完成通知
+
+### 3. Portfolio Deployer.app (实验性)
 - **位置**: `Portfolio Deployer.app`
 - **使用方法**: 双击运行
 - **特点**: 
   - 无需打开终端
   - 自动显示通知
   - 可以拖到 Dock 中
+- **注意**: 如果闪退，请使用其他方案
 
 ### 2. quick-deploy.sh (快速部署)
 - **位置**: `quick-deploy.sh`
@@ -44,9 +61,9 @@
 
 ## 🎯 推荐工作流程
 
-### 日常更新 (推荐使用 Portfolio Deployer.app)
+### 日常更新 (推荐使用 Deploy.command)
 1. 修改你的代码
-2. 双击 `Portfolio Deployer.app`
+2. 双击 `Deploy.command`
 3. 等待部署完成通知
 4. 访问 https://alalalex-m.github.io/ 查看更新
 
@@ -155,4 +172,21 @@ osascript -e 'display notification "你的自定义消息" with title "你的标
 
 ---
 
-**提示**: 建议将 `Portfolio Deployer.app` 拖到 Dock 中，这样每次更新都会更方便！ 
+**提示**: 建议将 `Deploy.command` 拖到 Dock 中，这样每次更新都会更方便！
+
+## 🔧 故障排除
+
+### 应用闪退问题
+
+**Q: Portfolio Deployer.app 闪退？**
+A: 这是已知问题，请使用以下替代方案：
+- 双击 `Deploy.command` (推荐)
+- 双击 `launch-deployer.sh`
+- 使用命令行: `./quick-deploy.sh`
+
+**Q: 如何创建更稳定的应用程序？**
+A: 使用 Automator 工作流：
+1. 双击 `Portfolio Deployer.workflow`
+2. 在 Automator 中点击 "运行" 测试
+3. 选择 "文件" → "存储为..." → "应用程序"
+4. 保存为新的应用程序 
