@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alalalex-m.github.io/sitemap.xml 

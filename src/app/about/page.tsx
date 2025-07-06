@@ -263,7 +263,8 @@ export default function About() {
                     <Text variant="body-default-m" onBackground="neutral-weak">
                       {skill.description}
                     </Text>
-                    {skill.images && skill.images.length > 0 && (
+                    {/* 暂时注释掉 images 部分，因为当前技能配置中没有 images 属性 */}
+                    {/* {skill.images && skill.images.length > 0 && (
                       <Flex fillWidth paddingTop="m" gap="12" wrap>
                         {skill.images.map((image, index) => (
                           <Flex
@@ -288,7 +289,7 @@ export default function About() {
                           </Flex>
                         ))}
                       </Flex>
-                    )}
+                    )} */}
                   </Column>
                 ))}
               </Column>
